@@ -1,0 +1,13 @@
+# 手动搭建webpack + vue项目(仿照vue/cli)
+
+1. 安装 yarn add vue (vue)
+2. 开发依赖 yarn add webpack -D (webpack)
+3. 开发依赖 yarn add vue-loader -D (vue解析加载器)
+4. 开发依赖 yarn add style-loader css-loader url-loader file-loader vue-template-compiler -D (css加载器,图片处理加载器，vue模板编译加载器)
+5. 开发依赖 yarn add webpack-cli -D (webpack构建工具脚手架)
+6. 安装 yarn add webpack-dev-server (开发服务器，本地开启服务器并可以热更新代码)
+7. 安装yarn add cross-env (运行跨平台设置和使用环境变量的脚本)
+8. 安装 yarn add html-webpack-plugin (模板html页面配置)
+9. 安装 yarn add yarn add less-loader less -D (使用less语法和解析less的loader)
+10. 安装 yarn add node-sass sass-loader -D (使用sass语法和解析sass的loader)
+11. 安装 yarn add mini-css-extract-plugin -D (单独抽离css文件)
